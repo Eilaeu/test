@@ -1,0 +1,96 @@
+html{
+	height : 100%;
+	overflow: hidden;
+}
+
+body
+{
+	background      : linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+	
+	background-size : cover;
+}
+
+.vertical-center {
+ 	min-height 		   : 100%;  
+   	min-height 		   : 100vh;
+
+ 	-webkit-transition : min-height 2s ease-in-out; 
+    transition         : min-height 2s ease-in-out;
+
+ 	display            : flex;
+ 	align-items        : center;
+}
+	
+.move-top {
+	min-height : 15%;
+	min-height : 15vh;
+}
+
+.vertical-center ul{
+	margin-top : 20px;
+	width      : 100%;
+}
+
+.vertical-center ul li{
+	color         : black;
+	list-style    : none;
+	display       : inline-block;
+	padding-right : 5px;
+}
+	
+li span{
+	color 		   : white;
+	text-transform : uppercase;
+	font-weight    : bold;
+	float          : left;
+}
+	
+	select option:nth-of-type(2n) {
+  		background : lightgrey;
+	}
+
+div{
+	text-align : center;
+}
+
+.row
+{
+	margin-top : 40%;
+   	margin-top : 40vh;
+}
+
+.planos{
+   	background         : white;
+   	border-radius      : 10px;
+	border             : 1px solid #ccc;
+   	display            : inline-block;
+	opacity 	       : 0;
+   	-webkit-transition : opacity 2s ease-in-out;
+  	transition         : opacity 2s ease-in-out;
+}
+	
+.planos li
+{
+	list-style  : none;
+    margin      : 25px;
+    padding     : 0;
+    font-weight : bold;
+    color       : #787373;
+    font-size   : 25px;
+}
+
+.planos li:nth-child(1)
+{
+	color     : #534f4f;
+	font-size : 15px;
+}
+.planos ul
+{
+	margin  : 0;
+    padding : 0;
+}
+
+.planos ul:nth-child(1)
+{
+	border-right : 1px solid #ccc;
+}
